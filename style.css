@@ -1,0 +1,459 @@
+html,
+body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+/* home */
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.home {
+    width: 100%;
+}
+
+.image {
+    background-image: url("home-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+}
+
+.logo h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    padding: 40px 0 0 22px;
+    color: rgb(255, 66, 8);
+}
+
+.menu {
+    width: 100%;
+    height: 20vh;
+}
+
+.menu li {
+    list-style: none;
+    padding-right: 50px;
+    float: right;
+    margin: 40px 30px 0 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #4834d4;
+}
+
+.search {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    margin: 0 25px;
+    width: 100%;
+}
+
+.text h1 {
+    margin: 0 0 20px 0;
+    font-size: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text input {
+    width: 30vw;
+    height: 50px;
+    padding: 10px;
+    outline-color: #686de0;
+    border-radius: 5px;
+    border: 1px solid #3f3e3e;
+}
+
+button.btn {
+    height: 50px;
+    width: 150px;
+    text-transform: capitalize;
+    background-color: #686de0;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button.btn:hover {
+    background-color: #4834d4;
+}
+
+/* service container */
+.s-container {
+    width: 100%;
+    height: 450px;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px auto;
+}
+
+.store,
+.coin,
+.discover {
+    width: 33%;
+    height: 30vh;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.s-container i.bx {
+    font-size: 100px;
+    color: rgb(255, 66, 8);
+}
+
+
+.s-container h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.s-delivery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    padding: 20px;
+}
+
+.heading h1 {
+    font-size: 2.3rem;
+}
+
+.mmm {
+    background-image: url("eating.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 50vh;
+}
+
+.own-heading,
+.about-heading {
+    width: 50%;
+    height: 50%;
+    padding: 60px 0 60px 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about {
+    background-color: #dfe6e9;
+}
+
+.pera {
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* footer */
+.footer {
+    background-color: #535c68;
+    height: 185vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer a:hover {
+    color: #1b1b1b;
+}
+
+.footer h3 {
+    padding: 20px 0 20px 0;
+    color: #fff;
+}
+
+.footer ul li {
+    margin: 10px 0;
+}
+
+.s-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 20px;
+}
+
+.contact-footer label,
+input {
+    display: block;
+    font-size: 0.9rem;
+}
+
+.contact-footer label {
+    color: #fff;
+}
+
+.contact-footer input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    padding: 10px;
+}
+
+.contact-footer,
+.menu-footer,
+.link-footer,
+.btn-footer {
+    margin: 20px 0;
+}
+
+.contact-footer button {
+    padding: 5px 15px;
+    margin-top: 15px;
+    color: #fff;
+    background-color: blue;
+    border: none;
+}
+
+
+/* end footer */
+
+.copyright,
+.team,
+.sequrity {
+    color: #fff;
+}
+
+.end-footer {
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.copyright {
+    font-size: 1rem;
+}
+
+hr {
+    background-color: #c5c2c2;
+    border: none;
+    width: 90%;
+    height: 1px;
+    margin: 0 auto;
+}
+
+button.country {
+    margin: 50px 0 0 100px;
+    width: 130px;
+    padding: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #b8b5b5;
+    position: relative;
+    text-align: center;
+}
+
+button.country img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+button.country i.bx {
+    position: absolute;
+    font-size: 20px;
+    top: 8px;
+    right: 15px;
+}
+
+
+
+@media screen and (width<=1050px) {
+    .container {
+        height: 100vh;
+    }
+
+    .text h1 {
+        margin: 0 0 40px 0;
+        font-size: 2rem;
+    }
+
+    .text input {
+        display: block;
+        width: 100%;
+    }
+
+    button.btn {
+        height: 45px;
+        width: 200px;
+        display: block;
+        margin-top: 18px;
+    }
+
+    .heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .own-heading h1 {
+        font-size: 1rem;
+    }
+
+    .about-heading h1 {
+        font-size: 1rem;
+    }
+
+    .s-container {
+        margin: 0 0 50px 0;
+    }
+
+    .owner,
+    .about {
+        display: block;
+    }
+
+    .own-heading,
+    .about-heading {
+        padding: 10px 0 20px 40px;
+    }
+
+    .own-heading,
+    .about-heading {
+        width: 100%;
+    }
+
+    .pera {
+        padding: 15px 40px;
+        width: 100%;
+    }
+}
+
+@media screen and (width<=770px) {
+    .home {
+        display: block;
+    }
+
+    .logo h1 {
+        font-size: 2rem;
+    }
+
+    .image {
+        width: 100%;
+        height: 60vh;
+    }
+.search {
+        height: 30vh;
+    } 
+
+    .search-menu {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .menu {
+        height: 10vh;
+    }
+
+    .text {
+        width: 100%;
+        height: 227px;
+        margin: 0;
+    }
+
+    .text h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        /* padding: 20px auto; */
+    }
+
+    .text input {
+        width: 50vw;
+        height: 35px;
+        margin: 0 auto;
+    }
+
+    button.btn {
+        height: 35px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .search {
+        display: block;
+    }
+
+    .s-container {
+        display: block;
+        height: 120vh;
+        margin: 0;
+    }
+
+    .store,
+    .coin,
+    .discover {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .footer li a {
+        font-size: 0.8rem;
+    }
+
+    .footer h3 {
+        padding: 10px;
+        font-size: 13px;
+
+    }
+}
